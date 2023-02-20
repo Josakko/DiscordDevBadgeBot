@@ -17,7 +17,7 @@ while True:
         print("Token from the last run loaded!")
     else:
         token = input("Enter token of your bot here:")
-        #token = "MTA1MjY1NTU4NzY4MDMyMTYyNw.Grbf78.5yTz1kTboCMElIEheMPdyHa8I4IcHg9KhGcjO0"
+        #token = "your token here"
     
     try:
         data = requests.get("https://discord.com/api/v10/users/@me", headers={

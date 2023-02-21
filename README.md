@@ -5,7 +5,7 @@ This program will allow you to get discord active developer badge.
 1. Go to the [discord developer portal](https://discord.com/developers/applications), sign in, and click `New Application`. Choose any name, click accept and create. Next go to the `Bot` section and click `Add Bot`. Click on `Reset Token` and click on `Copy` button.
 - **IMPORTANT:** DO NOT share copyed token! Others can use this to control your bot!
 - **IMPORTANT:** DO NOT close the terminal window until you complete step 4.
-2. Download the zip code and unzip it. Next run `BadgeBot.exe` and use `CTRL + V` to paste token of your bot and press `Enter`.
+2. Download the zip code and unzip it. Next run `BadgeBot.exe` and (or just use bot.py, but I recommend you to use BadgeBot.exe for simplicity) use `CTRL + V` to paste token of your bot and press `Enter`.
 3. Now you will see that you got the invite link for your bot that you want to open by pressing `CTRL + LMB`. On the following menu you will have to choose the server that you want to use as your badge server and invite the bot.
 - **IMPORTANT:** DO NOT use any server you are using for anything other than getting this badge!
 4. Now go to the server where the bot is and use the `/hello` slash command in any text channel (after completing this step you can close the terminal window).

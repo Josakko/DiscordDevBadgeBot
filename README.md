@@ -15,7 +15,6 @@ This program will allow you to get discord active developer badge.
 <p align="center">
   <img alt="issue" src="https://raw.githubusercontent.com/Josakko/DiscordDevBadgeBot/main/assets/image.png" width="750px">
 </p>
-
 5. After 24 hours, open [discord developer portal](https://discord.com/developers/active-developer) and fill out the form that will allow you to claim the badge.
 - **IMPORTANT:** If you don't run the command again in 30 days after claiming  badge, it will be removed from your account!
 ## Need Help?

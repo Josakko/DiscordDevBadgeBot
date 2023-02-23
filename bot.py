@@ -64,6 +64,13 @@ async def on_ready():
         Invite link for {client.user}:
         https://discord.com/api/oauth2/authorize?client_id={client.user.id}&scope=applications.commands%20bot 
     """), end="\n\n")
+
+@client.tree.command()
+async def ping(interaction: Interaction):
+    """ Check latency of the bot! """
+    await interaction.response.send_message(f"PONG, latency is {round(client.latency * 1000)}ms")
+    print(f' {interaction.user} used command "Ping".')
+    
     
 
 @client.tree.command()
@@ -76,7 +83,7 @@ async def hello(interaction: Interaction):
         Hi **{interaction.user}**, you will get the badge soon!
         >  
         > __**Claim your badge!**__
-        > 
+        >
         > Claim your badge here: https://discord.com/developers/active-developer 
     """))
 

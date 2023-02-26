@@ -83,8 +83,8 @@ async def hello(interaction: Interaction):
         Hi **{interaction.user}**, you will get the badge soon!
         >  
         > __**Claim your badge!**__
-        >
         > Claim your badge here: https://discord.com/developers/active-developer 
+        > GitHub Repositorie: https://github.com/Josakko/DiscordDevBadgeBot
     """))
 
 client.run(token)

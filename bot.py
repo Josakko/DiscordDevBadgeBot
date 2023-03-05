@@ -45,7 +45,7 @@ with open("config.json", "w") as f:
     json.dump(config, f, indent=2)
 
 
-class FunnyBadge(Client):
+class BadgeBot(Client):
     def __init__(self, *, intents: Intents):
         super().__init__(intents=intents)
         self.tree = app_commands.CommandTree(self)
@@ -54,7 +54,7 @@ class FunnyBadge(Client):
         
         await self.tree.sync()
 
-client = FunnyBadge(intents=Intents.none())
+client = BadgeBot(intents=Intents.none())
 
 
 @client.event
